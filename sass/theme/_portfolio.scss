@@ -1,0 +1,23 @@
+/**
+Portfolio styles
+*/
+
+#wrapper-portfolio-items {
+	background-color: $dark;
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+
+	.wrapper-portfolio {
+		display: flex;
+
+		.portfolio {
+			background-color: rgb(170, 170, 170);
+			border-radius: 15px;
+			padding: 1rem 1.5rem;
+			color: $body-color;
+			display: flex;
+			flex-direction: column;
+		}
+	}
+}

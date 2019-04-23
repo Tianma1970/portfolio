@@ -1,0 +1,10 @@
+body {
+	background-color: $gray-400;
+	text-align: center;
+	padding-left: auto;
+
+	.progress-bar{
+		background-color: $secondary;
+		width: 70%;
+	}
+}

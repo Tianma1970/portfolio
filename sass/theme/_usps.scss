@@ -1,0 +1,21 @@
+#wrapper-usps {
+	background: url(https://picsum.photos/1920/500/?random);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: transparent;
+	text-align: center;
+
+	.col-md {
+		display: flex;
+	}
+
+	.usp {
+		background-color: rgba(170,170,170, 0.7);
+		padding: 1rem 1.5rem;
+		border-radius: 15px;
+		margin-bottom: 10px;
+		.p {
+			font-size: 1.5rem;
+		}
+	}
+}
